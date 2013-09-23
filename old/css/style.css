@@ -1,0 +1,51 @@
+.head-logo {
+    background: url("../img/logo1.png") center no-repeat;
+    width: 85px;
+    height: 34px;
+}
+a.head-logo{
+    height: 35px;
+    margin-top: 3px;
+}
+.b-right {
+    border: solid 1px;
+    border-radius: 5px;
+}
+.feature1, .feature2, .feature3 {
+    background: url("../img/logo.png") left center no-repeat;
+    padding-left: 100px;
+}
+.m-content {
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.media-item {
+    width: 95%;
+    margin: 2px;
+}
+.media-list {
+    width: 70%;
+    margin-left: 10px;
+}
+.login {
+    background-color: azure;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    border: solid 1px #deeded;
+}
+.login-head {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.login .media-list a {
+    font-size: 20px;
+    float: left;
+    text-align: center;
+}
+.footer {
+    margin-top: 10px;
+    text-align: center;
+}
+.r-media {
+
+}
