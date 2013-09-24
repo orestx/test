@@ -13,3 +13,51 @@ border-top: 1px solid #e5e5e5;
 margin-top: 40px;
 margin-bottom: 40px;
 }
+div.jumbotron div.col-md-8 .btn-lg {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.jumbotron .for-button {
+    text-align: center;
+}
+.container.under-jumb a {
+    margin-top: 35px;
+}
+.under-jumb {
+    margin-bottom: 30px;
+}
+label {
+    width: 100%;
+    padding-top: 10px;
+}
+form p button {
+    margin-top: -10px;
+}
+.contacts-r ul {
+    list-style: none;
+    padding-left: 0;
+    padding-top: 5px;
+}
+.contacts-r li {
+    padding-bottom: 5px;
+}
+.contacts-r li span {
+    font-weight: bold;
+}
+.contacts-r h2 {
+    margin-top: 0;
+}
+.contacts-r ul.info {
+    /*margin-bottom: 30px;*/
+}
+.contacts-l p {
+    margin: 30px 0;
+}
+.contacts-l form input, textarea[class*="col-md"] {
+    border-radius: 5px;
+    padding: 5px;
+}
+.contacts h1 {
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
