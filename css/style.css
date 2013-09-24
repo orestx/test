@@ -17,9 +17,7 @@ div.jumbotron div.col-md-8 .btn-lg {
     padding-left: 40px;
     padding-right: 40px;
 }
-.jumbotron .for-button {
-    text-align: center;
-}
+
 .container.under-jumb a {
     margin-top: 35px;
 }
@@ -45,7 +43,7 @@ form p button {
     font-weight: bold;
 }
 .contacts-r h2 {
-    margin-top: 0;
+    margin-top: 30px;
 }
 .contacts-r ul.info {
     /*margin-bottom: 30px;*/
@@ -59,5 +57,28 @@ form p button {
 }
 .contacts h1 {
     margin-bottom: 40px;
-    margin-top: 40px;
+    margin-top: 0px;
+}
+.login div {
+    background-color: lightgray;
+    border:grey;
+    border-radius: 5px;
+}
+.login ul {
+    list-style: none;
+}
+.text-left {
+    text-align: left;
+}
+.text-center {
+    text-align: center;
+}
+.text-right {
+    text-align: right;
+}
+.login h1 {
+    margin: 20px 0 20px;
+}
+.login .col-md-8 a {
+    margin-bottom: 15px;
 }
