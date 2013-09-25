@@ -3,7 +3,7 @@
 <html xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
 
 <head>
-    <title>Home</title>
+    <title>Profile</title>
     <meta name="viewport" content="width=device-width">
     <meta charset="UTF-8">
     <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
@@ -42,7 +42,7 @@
 
     <div class="container form">
         <div class="container col-md-10 col-md-offset-1">
-            <div class=" tabbable tabs-left">
+            <!--<div class=" tabbable tabs-left">-->
                 <div class="col-md-3">
                     <ul class="nav nav-pills nav-stacked">
                         <li class="active"><a href="#general" data-toggle="tab">Общее</a></li>
@@ -54,23 +54,34 @@
                     <div class="tab-content">
                         <div class="tab-pane active" id="general">
                                     <form action="#">
-                                        <label class="form" for="">Платежная система</label><select name="" id="">
-                                        <item selected="selected">item1</item>
-                                        <item>item2</item>
-                                        <item>item3</item>
-                                    </select>
-                                        
-                                        
-                                        
-                                        
-                                        <div class="btn-group">
-                                            <button class="btn btn-default dropdown-toggle" data-toggle="dropdown"
-                                                    type="button">Dropdown<span class="caret"></span></button>
-                                            <ul class="dropdown-menu">
-                                                <li><a href="#">Dropdown-link</a></li>
-                                                <li><a href="#">Dropdown-link</a></li>
-                                            </ul>
+                                        <div class="row padding-bottom-10">
+                                            <div class="col-md-4"><label for="">Платежная система:</label></div>
+                                            <div class="col-md-8">
+                                                <select name="" class="form-control" data-live-search=true>
+                                                <option>Webmoney</option>
+                                                <option>QIWI</option>
+                                                <option>Расчетный счет</option>
+                                                </select></div>
                                         </div>
+                                        <hr>
+                                        <div class="row padding-bottom-10">
+                                            <div class="col-md-4"><label>Форма собственности:</label></div>
+                                            <div class="col-md-8">
+                                                <select name="" class="form-control" data-live-search=true>
+                                                <option>ЧП</option>
+                                                <option>ООО</option>
+                                                <option>ЗАО</option>
+                                                </select></div>
+                                        </div>
+                                        <hr>
+                                        <div class="row padding-bottom-10">
+                                            <div class="col-md-4"><label>НДС:</label> </div>
+
+                                            <div class="col-md-8"><input type="checkbox"/></div>
+                                        </div>
+                                        <hr>
+
+
                                     </form>
 
 
@@ -83,7 +94,8 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            <!--</div>-->
+            <div class="clearfix"></div>
             <p class="text-center">
                 <button class="btn btn-md btn-primary">Save</button>
             </p>
