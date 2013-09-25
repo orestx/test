@@ -40,7 +40,7 @@
         </div>
     </div>
 
-    <div class="container">
+    <div class="container form">
         <div class="container col-md-10 col-md-offset-1">
             <div class=" tabbable tabs-left">
                 <div class="col-md-3">
@@ -53,31 +53,27 @@
                 <div class="col-md-9">
                     <div class="tab-content">
                         <div class="tab-pane active" id="general">
+                                    <form action="#">
+                                        <label class="form" for="">Платежная система</label><select name="" id="">
+                                        <item selected="selected">item1</item>
+                                        <item>item2</item>
+                                        <item>item3</item>
+                                    </select>
+                                        
+                                        
+                                        
+                                        
+                                        <div class="btn-group">
+                                            <button class="btn btn-default dropdown-toggle" data-toggle="dropdown"
+                                                    type="button">Dropdown<span class="caret"></span></button>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="#">Dropdown-link</a></li>
+                                                <li><a href="#">Dropdown-link</a></li>
+                                            </ul>
+                                        </div>
+                                    </form>
 
 
-                            <form action="#">
-                                <div class="row">
-                                    <div class="col-md-4"></div>
-                                    <div class="col-md-6 col-md-offset-5"></div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-md-4"></div>
-                                    <div class="col-md-6 col-md-offset-5"></div>
-                                </div>
-
-                                <h3>Система</h3>
-
-
-
-                                <div class="btn-group">
-                                    <button class="btn btn-default dropdown-toggle" data-toggle="dropdown" type="button">
-                                        Dropdown<span class="caret"></span></button>
-                                    <ul class="dropdown-menu">
-                                        <li><a href="#">Dropdown-link</a></li>
-                                        <li><a href="#">Dropdown-link</a></li>
-                                    </ul>
-                                </div>
-                            </form>
                         </div>
                         <div class="tab-pane" id="details">
                             реквизиты
@@ -88,7 +84,9 @@
                     </div>
                 </div>
             </div>
-            <p class="text-center"><button class="btn btn-md btn-primary">Save</button></p>
+            <p class="text-center">
+                <button class="btn btn-md btn-primary">Save</button>
+            </p>
         </div>
     </div>
 
