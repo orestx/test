@@ -5,6 +5,7 @@
 <head>
     <title>Home</title>
     <meta name="viewport" content="width=device-width">
+    <meta charset="UTF-8">
     <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
@@ -42,27 +43,49 @@
     <div class="container">
         <div class="container col-md-10 col-md-offset-1">
             <div class=" tabbable tabs-left">
-                <ul class="nav nav-tabs">
-                    <li><a href="#basic" data-toggle="tab">Общее</a></li>
-                    <li><a href="#req" data-toggle="tab">Реквизиты</a></li>
-                    <li><a href="#c" data-toggle="tab">Basic</a></li>
-                </ul>
-                <div class="tab-content">
-                    <div class="tab-pane active" id="basic">
-                        <form action="#">
-                            <h1></h1>
-                        </form>
-                    </div>
-                    <div class="tab-pane" id="req">
-                        реквизиты
-                    </div>
-                    <div class="tab-pane" id="c">
-                        ccccc
+                    <ul class="nav nav-tabs">
+                        <li><a href="#general" data-toggle="tab">Общее</a></li>
+                        <li><a href="#details" data-toggle="tab">Реквизиты</a></li>
+                        <li><a href="#integrations" data-toggle="tab">Интеграции</a></li>
+                    </ul>
+                    <div class="tab-content">
+                        <div class="tab-pane active" id="general">
+
+
+                            <form action="#">
+                                <div class="row">
+                                    <div class="col-md-4"></div>
+                                    <div class="col-md-6 col-md-offset-5"></div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-4"></div>
+                                    <div class="col-md-6 col-md-offset-5"></div>
+                                </div>
+
+                                <h3>Система</h3>
+
+
+
+                                <div class="btn-group">
+                                    <button class="btn btn-default dropdown-toggle" data-toggle="dropdown" type="button">
+                                        Dropdown<span class="caret"></span></button>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#">Dropdown-link</a></li>
+                                        <li><a href="#">Dropdown-link</a></li>
+                                    </ul>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="tab-pane" id="details">
+                            реквизиты
+                        </div>
+                        <div class="tab-pane" id="integrations">
+                            ccccccccc
+                        </div>
                     </div>
                 </div>
             </div>
             <p class="text-center"><button class="btn btn-md btn-primary">Save</button></p>
-        </div>
     </div>
 
 
