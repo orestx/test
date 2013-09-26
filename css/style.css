@@ -51,10 +51,10 @@ form p button {
 .contacts-l p {
     margin: 30px 0;
 }
-.contacts-l form input, textarea[class*="col-md"] {
-    border-radius: 5px;
-    padding: 5px;
-}
+/*.contacts-l form input, textarea[class*="col-md"] {*/
+    /*border-radius: 5px;*/
+    /*padding: 5px;*/
+/*}*/
 .contacts h1 {
     margin-bottom: 40px;
     margin-top: 0px;
@@ -64,9 +64,9 @@ form p button {
     border:grey;
     border-radius: 5px;
 }
-.login ul {
-    list-style: none;
-}
+/*.login ul {*/
+    /*list-style: none;*/
+/*}*/
 .text-left {
     text-align: left;
 }
@@ -83,22 +83,22 @@ form p button {
     margin-bottom: 15px;
 }
 .padding-bottom-20 {
-    padding-bottom: 20px;
+    padding-bottom: 20px !important;
 }
 .padding-top-20 {
-    padding-top: 20px;
+    padding-top: 20px !important;
 }
 .padding-bottom-10 {
-    padding-bottom: 10px;
+    padding-bottom: 10px !important;
 }
 .padding-top-10 {
-    padding-top: 10px;
+    padding-top: 10px !important;
 }
 .padding-bottom-5 {
-    padding-bottom: 5px;
+    padding-bottom: 5px !important;
 }
 .padding-top-5 {
-    padding-top: 5px;
+    padding-top: 5px !important;
 }
 
 
