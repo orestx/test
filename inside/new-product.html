@@ -1,6 +1,6 @@
 <!doctype html>
 
-<html xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
+<html xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
 
 <head>
     <title>Add product</title>
@@ -24,14 +24,14 @@
                     <span class="icon-bar"></span>
                 </button>
                 <a href="index.html" class="navbar-brand"><img src="../old/img/logo1.png" alt=""
-                                                                style="margin-top: -5px;"/></a>
+                                                               style="margin-top: -5px;"/></a>
             </div>
             <div class="collapse navbar-collapse">
                 <ul class="nav navbar-nav">
                     <li><a href="clients-list.html">Clients</a></li>
-                    <li><a href="products.html">Products</a></li>
-                    <li><a href="invoices.html">Invoices</a></li>
-                    <li><a href="invoices.html">Reports</a></li>
+                    <li><a href="products-list.html">Products</a></li>
+                    <li><a href="invoices-list.html">Invoices</a></li>
+                    <li><a href="invoices-list.html">Reports</a></li>
                 </ul>
                 <ul class="nav navbar-nav pull-right">
                     <li><a href="../login.html">Log in</a></li>
@@ -50,65 +50,62 @@
                 <div class="panel-body">
                     <form action="#">
                         <div class="row padding-bottom-5">
-                            <div class="col-md-4"><label for="">Название:</label></div>
+                            <div class="col-md-4"><label for="">Поставщик:</label></div>
                             <div class="col-md-8">
                                 <select name="" class="form-control" data-live-search="true">
                                     <option>Webmoney</option>
                                     <option>QIWI</option>
                                     <option>Расчетный счет</option>
-                                </select></div>
-                        </div>
-                        <div class="row padding-bottom-5">
-                            <div class="col-md-4"><label for="">Реквизиты:</label></div>
-                            <div class="col-md-8">
-                                <select name="" class="form-control" data-live-search="true">
-                                    <option>Webmoney</option>
-                                    <option>QIWI</option>
-                                    <option>Расчетный счет</option>
-                                </select></div>
-                        </div>
-                        <hr>
-                        <div class="row padding-bottom-5">
-                            <div class="col-md-4"><label for="">Продукт:</label></div>
-                            <div class="col-md-8">
-                                <div class="row">
-                                <div class="col-md-9">
-                                <select name="" class="form-control" data-live-search="true">
-                                    <option>Webmoney</option>
-                                    <option>QIWI</option>
-                                    <option>Расчетный счет</option>
-                                </select></div>
-                                <div class="col-md-3">
-                                    <input class="form-control" value="1" type="number"/>
-                                </div></div>
+                                </select>
                             </div>
                         </div>
-                        <hr>
                         <div class="row padding-bottom-5">
-                            <div class="col-md-4"><label for="">Дата:</label></div>
+                            <div class="col-md-4"><label for="">Название:</label></div>
                             <div class="col-md-8">
-                                <input name="" class="form-control" type="date"></div>
+                                <input class="form-control" type="text"/></div>
                         </div>
                         <div class="row padding-bottom-5">
-                            <div class="col-md-4"><label for="">Действителен (дней):</label></div>
+                            <div class="col-md-4"><label for="">Стоимость:</label></div>
                             <div class="col-md-8">
-                                <input name="" class="form-control" type="number" value="10"></div>
+                                <div class="row">
+                                    <div class="col-md-9">
+                                        <input name="" class="form-control" type="number" value="0" step="0.1" min="0">
+                                    </div>
+                                    <div class="col-md-3">
+                                        <select name="" class="form-control" data-live-search="true">
+                                            <option>грн</option>
+                                            <option>€</option>
+                                            <option>$</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                         <div class="row padding-bottom-5">
-                            <div class="col-md-4"><label>Повторять автоматически:</label></div>
-                            <div class="col-md-8"><input type="checkbox"></div>
-                        </div>
-                        <div class="row padding-bottom-5">
-                            <div class="col-md-4"><label for="">Период (месяцев):</label></div>
+                            <div class="col-md-4"><label for="">Описание:</label></div>
                             <div class="col-md-8">
-                                <input name="" class="form-control" type="number" value="3"></div>
+                                <textarea class="form-control" rows="6"/></textarea>
+                            </div>
                         </div>
+                        <div class="row padding-bottom-5">
+                            <div class="col-md-4"><label for="">Активен:</label></div>
+                            <div class="col-md-8">
+                                <input type="checkbox">
+                            </div>
+                        </div>
+
+
+
+
+
+
+
+
 
 
                     </form>
                 </div>
                 <p class="text-right col-md-offset-5 col-md-7">
-                    <button class="btn btn-md btn-default">Preview</button>
                     <button class="btn btn-md btn-primary">Save</button>
                 </p>
                 <div class="clearfix"></div>
