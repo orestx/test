@@ -53,7 +53,7 @@
             <div class="col-md-9">
                 <div class="tab-content">
                     <div class="tab-pane active" id="general">
-                        <form action="#">
+                        <form action="new-invoice.html" id="profile">
                             <div class="row padding-bottom-5">
                                 <div class="col-md-4"><label for="">Платежная система:</label></div>
                                 <div class="col-md-8">
@@ -74,11 +74,7 @@
                                     </select></div>
                             </div>
                             <hr>
-                            <div class="row padding-bottom-5">
-                                <div class="col-md-4"><label>НДС:</label></div>
-                                <div class="col-md-8"><input type="checkbox"/></div>
-                            </div>
-                            <hr>
+
                         </form>
 
 
@@ -119,6 +115,11 @@
                             <div class="col-md-8"><input class="form-control" type="text"/></div>
                         </div>
                         <hr>
+                        <div class="row padding-bottom-5">
+                            <div class="col-md-4"><label>НДС:</label></div>
+                            <div class="col-md-8"><input type="checkbox"/></div>
+                        </div>
+                        <hr>
                     </div>
                     <div class="tab-pane" id="integrations">
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A adipisci corporis deserunt dicta
@@ -134,7 +135,7 @@
                 </div>
                 <div class="clearfix"></div>
                 <p class="text-center col-md-offset-11">
-                    <button class="btn btn-md btn-primary">Save</button>
+                    <button class="btn btn-md btn-primary" form="profile">Save</button>
                 </p>
             </div>
         </div>
