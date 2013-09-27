@@ -100,6 +100,9 @@ form p button {
 .padding-top-5 {
     padding-top: 5px !important;
 }
+.container .tables tbody {
+    font-size: small;
+}
 
 
 
