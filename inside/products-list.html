@@ -3,7 +3,7 @@
 <html xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
 
 <head>
-    <title>Users</title>
+    <title>Clients</title>
     <meta name="viewport" content="width=device-width">
     <meta charset="UTF-8">
     <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
@@ -14,216 +14,259 @@
 
 <body>
 <div class="container">
-    <div class="navbar navbar-default">
-        <div class="container">
-            <div class="navbar-header">
-                <button type=button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a href="index.html" class="navbar-brand"><img src="../old/img/logo1.png" alt=""
-                                                               style="margin-top: -5px;"/></a>
-            </div>
-            <div class="collapse navbar-collapse">
-                <ul class="nav navbar-nav">
-                    <li><a href="clients-list.html">Clients</a></li>
-                    <li><a href="products-list.html">Products</a></li>
-                    <li><a href="invoices-list.html">Invoices</a></li>
-                    <li><a href="invoices-list.html">Reports</a></li>
-                </ul>
-                <ul class="nav navbar-nav pull-right">
-                    <li><a href="../login.html">Logout</a></li>
-                </ul>
-            </div>
-
+<div class="navbar navbar-default">
+    <div class="container">
+        <div class="navbar-header">
+            <button type=button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="index.html" class="navbar-brand"><img src="../old/img/logo1.png" alt=""
+                                                           style="margin-top: -5px;"/></a>
         </div>
+        <div class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+                <li><a href="clients-list.html">Clients</a></li>
+                <li><a href="products-list.html">Products</a></li>
+                <li><a href="invoices-list.html">Invoices</a></li>
+                <li><a href="invoices-list.html">Reports</a></li>
+            </ul>
+            <ul class="nav navbar-nav pull-right">
+                <li><a href="../login.html">Logout</a></li>
+            </ul>
+        </div>
+
+    </div>
+</div>
+
+<div class="container-fluid tables">
+<div class="row">
+
+<div class="col-md-3">
+    <ul class="nav nav-pills nav-stacked">
+        <li class="active"><a href="">Host Europe</a></li>
+        <li><a href="" data-toggle="tab">Time Doctor</a></li>
+        <li><a href="" data-toggle="tab">Cena-Okna</a></li>
+        <li><a href="" data-toggle="tab">Med Test</a></li>
+        <li><a href="" data-toggle="tab">iSells</a></li>
+    </ul>
+    <hr>
+    <p class="padding-top-20"><a class="btn btn-default btn-block" href="#"><span
+            class="glyphicon glyphicon-plus"></span> Create new</a></p>
+</div>
+<div class="col-md-9">
+<div class="panel panel-default">
+    <table class="table table-hover <!--table-bordered-->">
+        <thead>
+        <tr>
+            <th class="col-md-4">Name</th>
+            <th class="col-md-3">Company name</th>
+            <th class="col-md-3">E-mail</th>
+            <th class="col-md-2">Status</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td class="col-md-4">Lorem ipsum.</td>
+            <td class="col-md-3">Lorem ipsum dolor.</td>
+            <td class="col-md-3">Lorem.@Lorem.com</td>
+            <td class="col-md-2">active<a class="btn btn-primary btn-sm pull-right" href=""><span
+                    class="glyphicon glyphicon-pencil"></span></a></td>
+        </tr>
+        <tr>
+            <td class="col-md-4">Nemo, reiciendis.</td>
+            <td class="col-md-3">Quo rem, tenetur!</td>
+            <td class="col-md-3">Tempora?@Dolor.com</td>
+            <td class="col-md-2">active<a class="btn btn-primary btn-sm pull-right" href=""><span
+                    class="glyphicon glyphicon-pencil"></span></a></td>
+        </tr>
+        <tr>
+            <td class="col-md-4">Nobis, sapiente!</td>
+            <td class="col-md-3">Cupiditate ipsa, suscipit?</td>
+            <td class="col-md-3">Est.@Odio.com</td>
+            <td class="col-md-2">active<a class="btn btn-primary btn-sm pull-right" href=""><span
+                    class="glyphicon glyphicon-pencil"></span></a></td>
+        </tr>
+        <tr>
+            <td class="col-md-4">Accusantium, temporibus!</td>
+            <td class="col-md-3">Architecto, culpa, sunt.</td>
+            <td class="col-md-3">Quod!@Laudantium?com</td>
+            <td class="col-md-2">active<a class="btn btn-primary btn-sm pull-right" href=""><span
+                    class="glyphicon glyphicon-pencil"></span></a></td>
+        </tr>
+        <tr>
+            <td class="col-md-4">Alias, cupiditate!</td>
+            <td class="col-md-3">Culpa error, voluptatum.</td>
+            <td class="col-md-3">Unde!@Dolore.com</td>
+            <td class="col-md-2">active<a class="btn btn-primary btn-sm pull-right" href=""><span
+                    class="glyphicon glyphicon-pencil"></span></a></td>
+        </tr>
+
+        <!---->
+        <!---->
+        <!--&lt;!&ndash;==========================================&ndash;&gt;-->
+        <!---->
+        <!--&lt;!&ndash;<tr>&ndash;&gt;-->
+        <!--&lt;!&ndash;<td class="col-md-7">Lorem ipsum dolor.</td>&ndash;&gt;-->
+        <!--&lt;!&ndash;<td class="col-md-5">Lorem ipsum.<a class="btn btn-primary btn-sm pull-right" href=""><span&ndash;&gt;-->
+        <!--&lt;!&ndash;class="glyphicon glyphicon-pencil"></span></a></td>&ndash;&gt;-->
+        <!--&lt;!&ndash;</tr>&ndash;&gt;-->
+        <!--&lt;!&ndash;<tr>&ndash;&gt;-->
+        <!--&lt;!&ndash;<td class="col-md-7">Alias, fugit, omnis!</td>&ndash;&gt;-->
+        <!--&lt;!&ndash;<td class="col-md-5">Reprehenderit, voluptate?<a class="btn btn-primary btn-sm pull-right"&ndash;&gt;-->
+        <!--&lt;!&ndash;href=""><span&ndash;&gt;-->
+        <!--&lt;!&ndash;class="glyphicon glyphicon-pencil"></span></a></td>&ndash;&gt;-->
+        <!--&lt;!&ndash;</tr>&ndash;&gt;-->
+        <!--&lt;!&ndash;<tr>&ndash;&gt;-->
+        <!--&lt;!&ndash;<td class="col-md-7">Iusto odio, pariatur!</td>&ndash;&gt;-->
+        <!--&lt;!&ndash;<td class="col-md-5">Magni, saepe.<a class="btn btn-primary btn-sm pull-right"&ndash;&gt;-->
+        <!--&lt;!&ndash;href=""><span&ndash;&gt;-->
+        <!--&lt;!&ndash;class="glyphicon glyphicon-pencil"></span></a></td>&ndash;&gt;-->
+        <!--&lt;!&ndash;</tr>&ndash;&gt;-->
+        <!--&lt;!&ndash;<tr>&ndash;&gt;-->
+        <!--&lt;!&ndash;<td class="col-md-7">Deserunt, iusto ullam.</td>&ndash;&gt;-->
+        <!--&lt;!&ndash;<td class="col-md-5">Cupiditate, suscipit.<a class="btn btn-primary btn-sm pull-right"&ndash;&gt;-->
+        <!--&lt;!&ndash;href=""><span&ndash;&gt;-->
+        <!--&lt;!&ndash;class="glyphicon glyphicon-pencil"></span></a></td>&ndash;&gt;-->
+        <!--&lt;!&ndash;</tr>&ndash;&gt;-->
+        <!--&lt;!&ndash;<tr>&ndash;&gt;-->
+        <!--&lt;!&ndash;<td class="col-md-7">Debitis, quaerat ullam?</td>&ndash;&gt;-->
+        <!--&lt;!&ndash;<td class="col-md-5">Eaque, voluptatibus?<a class="btn btn-primary btn-sm pull-right"&ndash;&gt;-->
+        <!--&lt;!&ndash;href=""><span&ndash;&gt;-->
+        <!--&lt;!&ndash;class="glyphicon glyphicon-pencil"></span></a></td>&ndash;&gt;-->
+        <!--&lt;!&ndash;</tr>&ndash;&gt;-->
+        <!--&lt;!&ndash;<tr>&ndash;&gt;-->
+        <!--&lt;!&ndash;<td class="col-md-7">Id, nesciunt, unde.</td>&ndash;&gt;-->
+        <!--&lt;!&ndash;<td class="col-md-5">Ab, in.<a class="btn btn-primary btn-sm pull-right" href=""><span&ndash;&gt;-->
+        <!--&lt;!&ndash;class="glyphicon glyphicon-pencil"></span></a></td>&ndash;&gt;-->
+        <!--&lt;!&ndash;</tr>&ndash;&gt;-->
+        <!--&lt;!&ndash;<tr>&ndash;&gt;-->
+        <!--&lt;!&ndash;<td class="col-md-7">Accusamus, itaque praesentium.</td>&ndash;&gt;-->
+        <!--&lt;!&ndash;<td class="col-md-5">Officia, quis.<a class="btn btn-primary btn-sm pull-right"&ndash;&gt;-->
+        <!--&lt;!&ndash;href=""><span&ndash;&gt;-->
+        <!--&lt;!&ndash;class="glyphicon glyphicon-pencil"></span></a></td>&ndash;&gt;-->
+        <!--&lt;!&ndash;</tr>&ndash;&gt;-->
+        <!--&lt;!&ndash;<tr>&ndash;&gt;-->
+        <!--&lt;!&ndash;<td class="col-md-7">Iusto, nulla, veniam.</td>&ndash;&gt;-->
+        <!--&lt;!&ndash;<td class="col-md-5">Exercitationem, laboriosam?<a class="btn btn-primary btn-sm pull-right"&ndash;&gt;-->
+        <!--&lt;!&ndash;href=""><span&ndash;&gt;-->
+        <!--&lt;!&ndash;class="glyphicon glyphicon-pencil"></span></a></td>&ndash;&gt;-->
+        <!--&lt;!&ndash;</tr>&ndash;&gt;-->
+        <!--&lt;!&ndash;<tr>&ndash;&gt;-->
+        <!--&lt;!&ndash;<td class="col-md-7">Exercitationem veritatis, voluptatem?</td>&ndash;&gt;-->
+        <!--&lt;!&ndash;<td class="col-md-5">Blanditiis, exercitationem?<a class="btn btn-primary btn-sm pull-right"&ndash;&gt;-->
+        <!--&lt;!&ndash;href=""><span&ndash;&gt;-->
+        <!--&lt;!&ndash;class="glyphicon glyphicon-pencil"></span></a></td>&ndash;&gt;-->
+        <!--&lt;!&ndash;</tr>&ndash;&gt;-->
+        <!--&lt;!&ndash;<tr>&ndash;&gt;-->
+        <!--&lt;!&ndash;<td class="col-md-7">Autem, reiciendis vel.</td>&ndash;&gt;-->
+        <!--&lt;!&ndash;<td class="col-md-5">At, quibusdam!<a class="btn btn-primary btn-sm pull-right"&ndash;&gt;-->
+        <!--&lt;!&ndash;href=""><span&ndash;&gt;-->
+        <!--&lt;!&ndash;class="glyphicon glyphicon-pencil"></span></a></td>&ndash;&gt;-->
+        <!--&lt;!&ndash;</tr>&ndash;&gt;-->
+        <!--&lt;!&ndash;<tr>&ndash;&gt;-->
+        <!--&lt;!&ndash;<td class="col-md-7">Quasi suscipit, voluptatem.</td>&ndash;&gt;-->
+        <!--&lt;!&ndash;<td class="col-md-5">Dignissimos, quisquam.<a class="btn btn-primary btn-sm pull-right"&ndash;&gt;-->
+        <!--&lt;!&ndash;href=""><span&ndash;&gt;-->
+        <!--&lt;!&ndash;class="glyphicon glyphicon-pencil"></span></a></td>&ndash;&gt;-->
+        <!--&lt;!&ndash;</tr>&ndash;&gt;-->
+        <!--&lt;!&ndash;<tr>&ndash;&gt;-->
+        <!--&lt;!&ndash;<td class="col-md-7">Eum, illo quis.</td>&ndash;&gt;-->
+        <!--&lt;!&ndash;<td class="col-md-5">Beatae, quo!<a class="btn btn-primary btn-sm pull-right" href=""><span&ndash;&gt;-->
+        <!--&lt;!&ndash;class="glyphicon glyphicon-pencil"></span></a></td>&ndash;&gt;-->
+        <!--&lt;!&ndash;</tr>&ndash;&gt;-->
+        <!--</tbody>-->
+        <!--</table>-->
+
+        <!--<br>-->
+        <!--<p class="text-center">or</p>-->
+        <!--<br>-->
+
+
+
+        <!--<table class="table table-hover table-bordered">-->
+        <!--<thead>-->
+        <!--<tr>-->
+        <!--<th class="col-md-7">Lorem ipsum.</th>-->
+        <!--<th class="col-md-4">Lorem ipsum.</th>-->
+        <!--<th class="col-md-1"></th>-->
+        <!--</tr>-->
+        <!--<tbody class="table-body">-->
+        <!--<tr>-->
+        <!--<td class="col-md-7">Lorem ipsum.</td>-->
+        <!--<td class="col-md-4">Lorem ipsum.</td>-->
+        <!--<td class="col-md-1"><a class="btn btn-primary btn-sm" href=""><span-->
+        <!--class="glyphicon glyphicon-pencil"></span></a></td>-->
+        <!--</tr>-->
+        <!--<tr>-->
+        <!--<td class="col-md-7">A, hic.</td>-->
+        <!--<td class="col-md-4">Aspernatur, tenetur?</td>-->
+        <!--<td class="col-md-1"><a class="btn btn-primary btn-sm" href=""><span-->
+        <!--class="glyphicon glyphicon-pencil"></span></a></td>-->
+        <!--</tr>-->
+        <!--<tr>-->
+        <!--<td class="col-md-7">Minus, unde.</td>-->
+        <!--<td class="col-md-4">Illo, laborum?</td>-->
+        <!--<td class="col-md-1"><a class="btn btn-primary btn-sm" href=""><span-->
+        <!--class="glyphicon glyphicon-pencil"></span></a></td>-->
+        <!--</tr>-->
+        <!--<tr>-->
+        <!--<td class="col-md-7">Ipsa, quae!</td>-->
+        <!--<td class="col-md-4">Adipisci, asperiores.</td>-->
+        <!--<td class="col-md-1"><a class="btn btn-primary btn-sm" href=""><span-->
+        <!--class="glyphicon glyphicon-pencil"></span></a></td>-->
+        <!--</tr>-->
+        <!--<tr>-->
+        <!--<td class="col-md-7">Aliquam, enim.</td>-->
+        <!--<td class="col-md-4">Blanditiis, quis.</td>-->
+        <!--<td class="col-md-1"><a class="btn btn-primary btn-sm" href=""><span-->
+        <!--class="glyphicon glyphicon-pencil"></span></a></td>-->
+        <!--</tr>-->
+        <!--<tr>-->
+        <!--<td class="col-md-7">Ipsa, quo?</td>-->
+        <!--<td class="col-md-4">Eius, minima.</td>-->
+        <!--<td class="col-md-1"><a class="btn btn-primary btn-sm" href=""><span-->
+        <!--class="glyphicon glyphicon-pencil"></span></a></td>-->
+        <!--</tr>-->
+        <!--<tr>-->
+        <!--<td class="col-md-7">Ad, est.</td>-->
+        <!--<td class="col-md-4">Ipsa, nobis.</td>-->
+        <!--<td class="col-md-1"><a class="btn btn-primary btn-sm" href=""><span-->
+        <!--class="glyphicon glyphicon-pencil"></span></a></td>-->
+        <!--</tr>-->
+        <!--<tr>-->
+        <!--<td class="col-md-7">Autem, quam.</td>-->
+        <!--<td class="col-md-4">Earum, unde.</td>-->
+        <!--<td class="col-md-1"><a class="btn btn-primary btn-sm" href=""><span-->
+        <!--class="glyphicon glyphicon-pencil"></span></a></td>-->
+        <!--</tr>-->
+        <!--<tr>-->
+        <!--<td class="col-md-7">Facere, ullam.</td>-->
+        <!--<td class="col-md-4">Tempore, voluptatum?</td>-->
+        <!--<td class="col-md-1"><a class="btn btn-primary btn-sm" href=""><span-->
+        <!--class="glyphicon glyphicon-pencil"></span></a></td>-->
+        <!--</tr>-->
+        <!--<tr>-->
+        <!--<td class="col-md-7">Numquam, qui.</td>-->
+        <!--<td class="col-md-4">Perferendis, tenetur.</td>-->
+        <!--<td class="col-md-1"><a class="btn btn-primary btn-sm" href=""><span-->
+        <!--class="glyphicon glyphicon-pencil"></span></a></td>-->
+        <!--</tr>-->
+        </tbody>
+        </thead>
+    </table>
+</div>
+</div>
+</div>
     </div>
 
-    <div class="container form">
-        <div class="row">
-
-            <div class="col-md-3">
-                        <ul class="nav nav-pills nav-stacked">
-                            <li class="active"><a href="">Lorem ipsum.</a></li>
-                            <li><a href="" data-toggle="tab">Earum, repellendus.</a></li>
-                            <li><a href="" data-toggle="tab">Error, voluptate?</a></li>
-                            <li><a href="" data-toggle="tab">Consequatur, maiores!</a></li>
-                            <li><a href="" data-toggle="tab">Deserunt, iste?</a></li>
-                        </ul>
-                <p class="padding-top-20"><a class="btn btn-default btn-block" href="new-product.html"><span
-                        class="glyphicon glyphicon-plus"></span> Create new</a></p>
-            </div>
-            <div class="col-md-9">
-                <div class="panel panel-default">
-                    <table class="table table-hover table-bordered">
-                        <thead>
-                        <tr>
-                            <th class="col-md-7">Lorem ipsum dolor.</th>
-                            <th class="col-md-5">Lorem ipsum.</th>
-                        </tr>
-                        </thead>
-                        <tbody>
-                        <tr>
-                            <td class="col-md-7">Lorem ipsum dolor.</td>
-                            <td class="col-md-5">Lorem ipsum.<a class="btn btn-primary btn-sm pull-right" href=""><span
-                                    class="glyphicon glyphicon-pencil"></span></a></td>
-                        </tr>
-                        <tr>
-                            <td class="col-md-7">Alias, fugit, omnis!</td>
-                            <td class="col-md-5">Reprehenderit, voluptate?<a class="btn btn-primary btn-sm pull-right"
-                                                                             href=""><span
-                                    class="glyphicon glyphicon-pencil"></span></a></td>
-                        </tr>
-                        <tr>
-                            <td class="col-md-7">Iusto odio, pariatur!</td>
-                            <td class="col-md-5">Magni, saepe.<a class="btn btn-primary btn-sm pull-right"
-                                                                 href=""><span
-                                    class="glyphicon glyphicon-pencil"></span></a></td>
-                        </tr>
-                        <tr>
-                            <td class="col-md-7">Deserunt, iusto ullam.</td>
-                            <td class="col-md-5">Cupiditate, suscipit.<a class="btn btn-primary btn-sm pull-right"
-                                                                         href=""><span
-                                    class="glyphicon glyphicon-pencil"></span></a></td>
-                        </tr>
-                        <tr>
-                            <td class="col-md-7">Debitis, quaerat ullam?</td>
-                            <td class="col-md-5">Eaque, voluptatibus?<a class="btn btn-primary btn-sm pull-right"
-                                                                        href=""><span
-                                    class="glyphicon glyphicon-pencil"></span></a></td>
-                        </tr>
-                        <tr>
-                            <td class="col-md-7">Id, nesciunt, unde.</td>
-                            <td class="col-md-5">Ab, in.<a class="btn btn-primary btn-sm pull-right" href=""><span
-                                    class="glyphicon glyphicon-pencil"></span></a></td>
-                        </tr>
-                        <tr>
-                            <td class="col-md-7">Accusamus, itaque praesentium.</td>
-                            <td class="col-md-5">Officia, quis.<a class="btn btn-primary btn-sm pull-right"
-                                                                  href=""><span
-                                    class="glyphicon glyphicon-pencil"></span></a></td>
-                        </tr>
-                        <tr>
-                            <td class="col-md-7">Iusto, nulla, veniam.</td>
-                            <td class="col-md-5">Exercitationem, laboriosam?<a class="btn btn-primary btn-sm pull-right"
-                                                                               href=""><span
-                                    class="glyphicon glyphicon-pencil"></span></a></td>
-                        </tr>
-                        <tr>
-                            <td class="col-md-7">Exercitationem veritatis, voluptatem?</td>
-                            <td class="col-md-5">Blanditiis, exercitationem?<a class="btn btn-primary btn-sm pull-right"
-                                                                               href=""><span
-                                    class="glyphicon glyphicon-pencil"></span></a></td>
-                        </tr>
-                        <tr>
-                            <td class="col-md-7">Autem, reiciendis vel.</td>
-                            <td class="col-md-5">At, quibusdam!<a class="btn btn-primary btn-sm pull-right"
-                                                                  href=""><span
-                                    class="glyphicon glyphicon-pencil"></span></a></td>
-                        </tr>
-                        <tr>
-                            <td class="col-md-7">Quasi suscipit, voluptatem.</td>
-                            <td class="col-md-5">Dignissimos, quisquam.<a class="btn btn-primary btn-sm pull-right"
-                                                                          href=""><span
-                                    class="glyphicon glyphicon-pencil"></span></a></td>
-                        </tr>
-                        <tr>
-                            <td class="col-md-7">Eum, illo quis.</td>
-                            <td class="col-md-5">Beatae, quo!<a class="btn btn-primary btn-sm pull-right" href=""><span
-                                    class="glyphicon glyphicon-pencil"></span></a></td>
-                        </tr>
-                        </tbody>
-                    </table>
-
-                    <br>
-                    <p class="text-center">or</p>
-                    <br>
-
-
-
-                    <table class="table table-hover table-bordered">
-                        <thead>
-                        <tr>
-                            <th class="col-md-7">Lorem ipsum.</th>
-                            <th class="col-md-4">Lorem ipsum.</th>
-                            <th class="col-md-1"></th>
-                        </tr>
-                        <tbody class="table-body">
-                        <tr>
-                            <td class="col-md-7">Lorem ipsum.</td>
-                            <td class="col-md-4">Lorem ipsum.</td>
-                            <td class="col-md-1"><a class="btn btn-primary btn-sm" href=""><span
-                                    class="glyphicon glyphicon-pencil"></span></a></td>
-                        </tr>
-                        <tr>
-                            <td class="col-md-7">A, hic.</td>
-                            <td class="col-md-4">Aspernatur, tenetur?</td>
-                            <td class="col-md-1"><a class="btn btn-primary btn-sm" href=""><span
-                                    class="glyphicon glyphicon-pencil"></span></a></td>
-                        </tr>
-                        <tr>
-                            <td class="col-md-7">Minus, unde.</td>
-                            <td class="col-md-4">Illo, laborum?</td>
-                            <td class="col-md-1"><a class="btn btn-primary btn-sm" href=""><span
-                                    class="glyphicon glyphicon-pencil"></span></a></td>
-                        </tr>
-                        <tr>
-                            <td class="col-md-7">Ipsa, quae!</td>
-                            <td class="col-md-4">Adipisci, asperiores.</td>
-                            <td class="col-md-1"><a class="btn btn-primary btn-sm" href=""><span
-                                    class="glyphicon glyphicon-pencil"></span></a></td>
-                        </tr>
-                        <tr>
-                            <td class="col-md-7">Aliquam, enim.</td>
-                            <td class="col-md-4">Blanditiis, quis.</td>
-                            <td class="col-md-1"><a class="btn btn-primary btn-sm" href=""><span
-                                    class="glyphicon glyphicon-pencil"></span></a></td>
-                        </tr>
-                        <tr>
-                            <td class="col-md-7">Ipsa, quo?</td>
-                            <td class="col-md-4">Eius, minima.</td>
-                            <td class="col-md-1"><a class="btn btn-primary btn-sm" href=""><span
-                                    class="glyphicon glyphicon-pencil"></span></a></td>
-                        </tr>
-                        <tr>
-                            <td class="col-md-7">Ad, est.</td>
-                            <td class="col-md-4">Ipsa, nobis.</td>
-                            <td class="col-md-1"><a class="btn btn-primary btn-sm" href=""><span
-                                    class="glyphicon glyphicon-pencil"></span></a></td>
-                        </tr>
-                        <tr>
-                            <td class="col-md-7">Autem, quam.</td>
-                            <td class="col-md-4">Earum, unde.</td>
-                            <td class="col-md-1"><a class="btn btn-primary btn-sm" href=""><span
-                                    class="glyphicon glyphicon-pencil"></span></a></td>
-                        </tr>
-                        <tr>
-                            <td class="col-md-7">Facere, ullam.</td>
-                            <td class="col-md-4">Tempore, voluptatum?</td>
-                            <td class="col-md-1"><a class="btn btn-primary btn-sm" href=""><span
-                                    class="glyphicon glyphicon-pencil"></span></a></td>
-                        </tr>
-                        <tr>
-                            <td class="col-md-7">Numquam, qui.</td>
-                            <td class="col-md-4">Perferendis, tenetur.</td>
-                            <td class="col-md-1"><a class="btn btn-primary btn-sm" href=""><span
-                                    class="glyphicon glyphicon-pencil"></span></a></td>
-                        </tr>
-                        </tbody>
-                        </thead>
-                    </table>
-                </div>
-            </div>
+<footer>
+    <div class="container">
+        <p class="col-md-3 col-md-offset-5">Billsystem 2013</p>
     </div>
-
-
-    <footer>
-        <div class="container">
-            <p class="col-md-3 col-md-offset-5">Billsystem 2013</p>
-        </div>
-    </footer>
+</footer>
 </div>
 
 
