@@ -59,29 +59,29 @@ form p button {
     margin-bottom: 40px;
     margin-top: 0px;
 }
-.login div {
-    background-color: lightgray;
-    border:grey;
-    border-radius: 5px;
-}
+/*.login div {*/
+    /*background-color: lightgray;*/
+    /*border:grey;*/
+    /*border-radius: 5px;*/
+/*}*/
 /*.login ul {*/
     /*list-style: none;*/
 /*}*/
-.text-left {
-    text-align: left;
-}
-.text-center {
-    text-align: center;
-}
-.text-right {
-    text-align: right;
-}
-.login h1 {
-    margin: 20px 0 20px;
-}
-.login .col-md-8 a {
-    margin-bottom: 15px;
-}
+/*.text-left {*/
+    /*text-align: left;*/
+/*}*/
+/*.text-center {*/
+    /*text-align: center;*/
+/*}*/
+/*.text-right {*/
+    /*text-align: right;*/
+/*}*/
+/*.login h1 {*/
+    /*margin: 20px 0 20px;*/
+/*}*/
+/*.login .col-md-8 a {*/
+    /*margin-bottom: 15px;*/
+/*}*/
 .padding-bottom-20 {
     padding-bottom: 20px !important;
 }
