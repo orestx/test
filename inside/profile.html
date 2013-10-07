@@ -44,122 +44,134 @@
     <div class="container form">
         <div class="row">
             <div class="col-md-3">
-                <ul class="nav nav-pills nav-stacked">
+                <ul class="nav nav-pills nav-stacked padding-bottom-20">
                     <li class="active"><a href="#general" data-toggle="tab">Общее</a></li>
                     <li><a href="#details" data-toggle="tab">Реквизиты</a></li>
                     <li><a href="#integrations" data-toggle="tab">Интеграции</a></li>
                 </ul>
             </div>
             <div class="col-md-9">
-                <form class="form-horizontal" action="new-invoice.html" id="profile">
-                <div class="tab-content">
+                <div class="panel panel-primary">
+                    <div class="panel-heading">
+                        <h4>Ваши настройки</h4>
+                    </div>
+                    <div class="panel-body">
+                        <form class="form-horizontal" action="new-invoice.html" id="profile">
+                            <div class="tab-content">
 
-                    <div class="tab-pane active" id="general">
-                        <!--<form class="form-horizontal" action="new-invoice.html" id="profile">-->
-                            <div class="row">
-                                <div class="form-group">
-                                    <label class="col-md-4 control-label" for="">Платежная система:</label>
-                                    <div class="col-md-8">
-                                        <label class="checkbox"><input type="checkbox" /> QIWI</label>
-                                        <label class="checkbox"><input type="checkbox"/> Webmoney</label>
-                                        <label class="checkbox"><input type="checkbox"/> Расчетный счет</label>
+                                <div class="tab-pane active" id="general">
+                                    <!--<form class="form-horizontal" action="new-invoice.html" id="profile">-->
+                                        <div class="form-group">
+                                            <label class="col-md-4 control-label" for="">Платежная система:</label>
+
+                                            <div class="col-md-8">
+                                                <label class="checkbox"><input type="checkbox"/> QIWI</label>
+                                                <label class="checkbox"><input type="checkbox"/> Webmoney</label>
+                                                <label class="checkbox"><input type="checkbox"/> Расчетный счет</label>
+                                            </div>
+                                        </div>
+                                    <hr>
+                                        <div class="form-group"><label class="col-md-4 control-label">Форма
+                                            собственности:</label>
+
+                                            <div class="col-md-8">
+                                                <select name="" class="form-control" data-live-search=true>
+                                                    <option>ЧП</option>
+                                                    <option>ООО</option>
+                                                    <option>ЗАО</option>
+                                                </select></div>
+                                        </div>
+                                    <hr>
+
+                                    <!--</form>-->
+
+
+                                </div>
+                                <div class="tab-pane" id="details">
+                                    <!--QIWI-->
+                                        <div class="form-group"><label class="col-md-4 control-label" for="">Номер
+                                            QIWI-кошелька
+                                            (тел.):</label>
+
+                                            <div class="col-md-8"><input class="form-control" type="text"/></div>
+                                        </div>
+                                    <hr>
+                                    <!--конец QIWI-->
+
+                                    <!--расчетный счет-->
+                                        <div class="form-group"><label class="col-md-4 control-label"
+                                                                       for="">Имя:</label>
+
+                                            <div class="col-md-8"><input class="form-control" type="text"/></div>
+                                        </div>
+                                    <hr>
+                                        <div class="form-group"><label class="col-md-4 control-label"
+                                                                       for="">Фамилия:</label>
+
+                                            <div class="col-md-8"><input class="form-control" type="text"/></div>
+                                        </div>
+                                    <hr>
+                                        <div class="form-group"><label class="col-md-4 control-label"
+                                                                       for="">Адрес:</label>
+
+                                            <div class="col-md-8"><input class="form-control" type="text"/></div>
+                                        </div>
+                                    <hr>
+                                        <div class="form-group"><label class="col-md-4 control-label"
+                                                                       for="">СПЄП:</label>
+
+                                            <div class="col-md-8"><input class="form-control" type="text"/></div>
                                     </div>
+                                    <hr>
+                                        <div class="form-group"><label class="col-md-4 control-label"
+                                                                       for="">ЄДР:</label>
+
+                                            <div class="col-md-8"><input class="form-control" type="text"/></div>
+                                        </div>
+                                    <hr>
+                                        <div class="form-group"><label class="col-md-4 control-label" for="">ИН:</label>
+
+                                            <div class="col-md-8"><input class="form-control" type="text"/></div>
+                                    </div>
+                                    <hr>
+                                        <div class="form-group"><label class="col-md-4 control-label" for="">Адрес
+                                            регистрации свидетельства:</label>
+
+                                            <div class="col-md-8"><input class="form-control" type="text"/></div>
+                                        </div>
+                                    <!--конец расчетного счета-->
+                                    <hr>
+                                        <div class="form-group"><label class="col-md-4 control-label">НДС: <input
+                                                type="checkbox"/></label>
+                                            <!--<div class="col-md-8 checkbox"><input type="checkbox"/></div>-->
+                                        </div>
+                                        <hr>
+                                </div>
+                                <div class="tab-pane" id="integrations">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A adipisci corporis
+                                        deserunt dicta
+                                        eaque id, maiores minima nobis numquam odit pariatur, perspiciatis porro
+                                        possimus voluptate
+                                        voluptatibus. Adipisci aut, consequatur doloremque dolorum ea est impedit
+                                        maiores minima
+                                        modi mollitia nobis numquam praesentium recusandae similique, sunt tempore
+                                        tenetur!
+                                        Consequuntur corporis deserunt dolor enim illo ipsum iusto laboriosam laborum
+                                        libero
+                                        nostrum, numquam perferendis praesentium quae quod ratione recusandae reiciendis
+                                        soluta
+                                        suscipit tempore totam ut vel velit voluptas! Cum deserunt dolore, error ratione
+                                        saepe
+                                        voluptatem. At omnis sapiente temporibus. Accusamus doloribus ea eaque eius eum
+                                        ex, impedit
+                                        labore molestiae praesentium quaerat quia, quisquam, tempore!</p>
                                 </div>
                             </div>
-                            <hr>
-                            <div class="row">
-                                <div class="form-group"><label class="col-md-4 control-label">Форма собственности:</label>
-                                <div class="col-md-8">
-                                    <select name="" class="form-control" data-live-search=true>
-                                        <option>ЧП</option>
-                                        <option>ООО</option>
-                                        <option>ЗАО</option>
-                                    </select></div>
-                            </div>
-                            </div>
-                            <hr>
-
-                        <!--</form>-->
-
-
-                    </div>
-                    <div class="tab-pane" id="details">
-                    <!--QIWI-->
-                        <div class="row">
-                            <div class="form-group"><label class="col-md-4 control-label" for="">Номер QIWI-кошелька
-                                (тел.):</label>
-                            <div class="col-md-8"><input class="form-control" type="text"/></div>
-                        </div>
-                        </div>
-                        <hr>
-                    <!--конец QIWI-->
-
-                    <!--расчетный счет-->
-                        <div class="row">
-                            <div class="form-group"><label class="col-md-4 control-label" for="">Имя:</label>
-                            <div class="col-md-8"><input class="form-control" type="text"/></div>
-                        </div>
-                        </div>
-                        <hr>
-                        <div class="row">
-                            <div class="form-group"><label class="col-md-4 control-label" for="">Фамилия:</label>
-                                <div class="col-md-8"><input class="form-control" type="text"/></div>
-                            </div>
-                        </div>
-                        <hr>
-                        <div class="row">
-                            <div class="form-group"><label class="col-md-4 control-label" for="">Адрес:</label>
-                                <div class="col-md-8"><input class="form-control" type="text"/></div>
-                            </div>
-                        </div>
-                        <hr>
-                        <div class="row">
-                            <div class="form-group"><label class="col-md-4 control-label" for="">СПЄП:</label>
-                                <div class="col-md-8"><input class="form-control" type="text"/></div>
-                            </div>
-                        </div>
-                        <hr>
-                        <div class="row">
-                            <div class="form-group"><label class="col-md-4 control-label" for="">ЄДР:</label>
-                                <div class="col-md-8"><input class="form-control" type="text"/></div>
-                            </div>
-                        </div>
-                        <hr>
-                        <div class="row">
-                            <div class="form-group"><label class="col-md-4 control-label" for="">ИН:</label>
-                                <div class="col-md-8"><input class="form-control" type="text"/></div>
-                            </div>
-                        </div>
-                        <hr>
-                        <div class="row">
-                            <div class="form-group"><label class="col-md-4 control-label" for="">Адрес регистрации свидетельства:</label>
-                                <div class="col-md-8"><input class="form-control" type="text"/></div>
-                            </div>
-                        </div>
-                    <!--конец расчетного счета-->
-                        <hr>
-                        <div class="row">
-                            <div class="form-group"><label class="col-md-4 control-label">НДС:</label>
-                            <div class="col-md-8 checkbox"><input type="checkbox"/></div>
-                        </div>
-                        <hr>
-                    </div>      </div>
-                    <div class="tab-pane" id="integrations">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A adipisci corporis deserunt dicta
-                            eaque id, maiores minima nobis numquam odit pariatur, perspiciatis porro possimus voluptate
-                            voluptatibus. Adipisci aut, consequatur doloremque dolorum ea est impedit maiores minima
-                            modi mollitia nobis numquam praesentium recusandae similique, sunt tempore tenetur!
-                            Consequuntur corporis deserunt dolor enim illo ipsum iusto laboriosam laborum libero
-                            nostrum, numquam perferendis praesentium quae quod ratione recusandae reiciendis soluta
-                            suscipit tempore totam ut vel velit voluptas! Cum deserunt dolore, error ratione saepe
-                            voluptatem. At omnis sapiente temporibus. Accusamus doloribus ea eaque eius eum ex, impedit
-                            labore molestiae praesentium quaerat quia, quisquam, tempore!</p>
+                        </form>
                     </div>
                 </div>
-            </form>
-
                 <div class="clearfix"></div>
-                <p class="text-center col-md-offset-11">
+                <p class="<!--text-center-->">
                     <button class="btn btn-md btn-primary" form="profile">Save</button>
                 </p>
             </div>
