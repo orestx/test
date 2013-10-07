@@ -1,6 +1,6 @@
-.jumbotron h1 {
-    text-align: center;
-}
+/*.jumbotron h1 {*/
+    /*text-align: center;*/
+/*}*/
 /*.container .jumbotron {*/
     /*background-color: transparent;*/
     /*border-bottom: 1px solid;*/
@@ -13,10 +13,10 @@ border-top: 1px solid #e5e5e5;
 margin-top: 40px;
 margin-bottom: 40px;
 }
-div.jumbotron div.col-md-8 .btn-lg {
-    padding-left: 40px;
-    padding-right: 40px;
-}
+/*div.jumbotron div.col-md-8 .btn-lg {*/
+    /*padding-left: 40px;*/
+    /*padding-right: 40px;*/
+/*}*/
 
 .container.under-jumb a {
     margin-top: 35px;
@@ -24,10 +24,10 @@ div.jumbotron div.col-md-8 .btn-lg {
 .under-jumb {
     margin-bottom: 30px;
 }
-label {
-    width: 100%;
-    padding-top: 10px;
-}
+/*label {*/
+    /*width: 100%;*/
+    /*padding-top: 10px;*/
+/*}*/
 form p button {
     margin-top: -10px;
 }
