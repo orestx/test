@@ -12,28 +12,80 @@
         .invoice-heading .col-md-2 {
             text-align: right;
         }
+        table td {
+            padding-left:20px;
+        }
+        table tr>td {
+            text-align: right;
+        }
+        table tr>td+td {
+            text-align: left;
+        }
+        table tr {
+            margin-top: 20px;
+        }
     </style>
 </head>
 <body>
 
 <div class="container">
     <div class="invoice-heading">
-        <div class="row">
-            <div class="col-md-2"><p>Постачальник</p></div>
-            <div class="col-md-9"><p>Какой то поставщик</p></div>
-        </div>
-        <div class="row">
-            <div class="col-md-2"><p>Замовник</p></div>
-            <div class="col-md-9"><p>Какой то заказчик</p></div>
-        </div>
-        <div class="row">
-            <div class="col-md-2"><p>Платник</p></div>
-            <div class="col-md-9"><p>Тот же что и заказчик</p></div>
-        </div>
-        <div class="row">
-            <div class="col-md-2"><p>Адрес</p></div>
-            <div class="col-md-9"><p>Какой то адрес</p></div>
-        </div>
+
+
+        <table>
+            <tbody>
+            <tr>
+                <td><b>Поставщик</b></td>
+                <td>какой то поставщик</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>реквизиты поставщика</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>контактные данные поставщика</td>
+            </tr>
+            <tr>
+                <td><b>Заказчик</b></td>
+                <td>какой то заказчик</td>
+            </tr>
+            <tr>
+                <td><b>Платник</b></td>
+                <td>тот же что и заказчик</td>
+            </tr>
+            <tr>
+                <td><b>Адрес</b>
+                <td>адрес заказчика</td>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+
+
+
+
+
+        <!--<div class="row padding-top-5">-->
+            <!--<div class="col-md-2"><p><b>Постачальник</b></p></div>-->
+            <!--<div class="col-md-9">-->
+                <!--<span>Какой то поставщик</span> <br>-->
+                <!--<span>Реквизиты поставщика</span> <br>-->
+                <!--<span>Контактные данные поставщика</span>-->
+            <!--</div>-->
+        <!--</div>-->
+        <!--<div class="row padding-top-5">-->
+            <!--<div class="col-md-2"><p><b>Замовник</b></p></div>-->
+            <!--<div class="col-md-9"><span>Какой то заказчик</span></div>-->
+        <!--</div>-->
+        <!--<div class="row padding-top-5">-->
+            <!--<div class="col-md-2"><p><b>Платник</b></p></div>-->
+            <!--<div class="col-md-9"><span>Тот же что и заказчик</span></div>-->
+        <!--</div>-->
+        <!--<div class="row padding-top-5">-->
+            <!--<div class="col-md-2"><p><b>Адрес</b></p></div>-->
+            <!--<div class="col-md-9"><span>Какой то адрес</span></div>-->
+        <!--</div>-->
     </div>
 
     <div class="invoice-body">
@@ -93,6 +145,7 @@
         <p><b>Всього на суму:  </b><span><u>Двiстi шiстдесят одна гривня, 00 копiйок</u></span></p>
     </div>
     <div class="invoice-footer">
+            <p class="col-md-offset-8">Рахунок дiйсний до сплати до:  <span>10.01.2000</span></p>
         <p>Пiдпис:</p>
     </div>
 </div>
