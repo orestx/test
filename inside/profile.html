@@ -51,139 +51,167 @@
                 </ul>
             </div>
             <div class="col-md-9">
-                <div class="panel panel-primary">
-                    <div class="panel-heading">
-                        <h4>Ваши настройки</h4>
-                    </div>
-                    <div class="panel-body">
-                        <form class="form-horizontal" action="new-invoice.html" id="profile">
-                            <div class="tab-content">
 
-                                <div class="tab-pane active" id="general">
-                                    <!--<form class="form-horizontal" action="new-invoice.html" id="profile">-->
-                                        <div class="form-group">
-                                            <label class="col-md-4 control-label" for="">Платежная система:</label>
+                <!--<form class="form-horizontal" action="new-invoice.html">-->
+                <div class="tab-content">
 
-                                            <div class="col-md-8">
-                                                <label class="checkbox"><input type="checkbox"/> QIWI</label>
-                                                <label class="checkbox"><input type="checkbox"/> Webmoney</label>
-                                                <label class="checkbox"><input type="checkbox"/> Расчетный счет</label>
-                                            </div>
-                                        </div>
-                                    <hr>
-                                        <div class="form-group"><label class="col-md-4 control-label">Форма
-                                            собственности:</label>
-
-                                            <div class="col-md-8">
-                                                <select name="" class="form-control" data-live-search=true>
-                                                    <option>ЧП</option>
-                                                    <option>ООО</option>
-                                                    <option>ЗАО</option>
-                                                </select></div>
-                                        </div>
-                                    <hr>
-
-                                    <!--</form>-->
-
-
-                                </div>
-                                <div class="tab-pane" id="details">
-                                    <!--QIWI-->
-                                        <div class="form-group"><label class="col-md-4 control-label" for="">Номер
-                                            QIWI-кошелька
-                                            (тел.):</label>
-
-                                            <div class="col-md-8"><input class="form-control" type="text"/></div>
-                                        </div>
-                                    <hr>
-                                    <!--конец QIWI-->
-
-                                    <!--расчетный счет-->
-                                        <div class="form-group"><label class="col-md-4 control-label"
-                                                                       for="">Имя:</label>
-
-                                            <div class="col-md-8"><input class="form-control" type="text"/></div>
-                                        </div>
-                                    <hr>
-                                        <div class="form-group"><label class="col-md-4 control-label"
-                                                                       for="">Фамилия:</label>
-
-                                            <div class="col-md-8"><input class="form-control" type="text"/></div>
-                                        </div>
-                                    <hr>
-                                        <div class="form-group"><label class="col-md-4 control-label"
-                                                                       for="">Адрес:</label>
-
-                                            <div class="col-md-8"><input class="form-control" type="text"/></div>
-                                        </div>
-                                    <hr>
-                                        <div class="form-group"><label class="col-md-4 control-label"
-                                                                       for="">СПЄП:</label>
-
-                                            <div class="col-md-8"><input class="form-control" type="text"/></div>
-                                    </div>
-                                    <hr>
-                                        <div class="form-group"><label class="col-md-4 control-label"
-                                                                       for="">ЄДР:</label>
-
-                                            <div class="col-md-8"><input class="form-control" type="text"/></div>
-                                        </div>
-                                    <hr>
-                                        <div class="form-group"><label class="col-md-4 control-label" for="">ИН:</label>
-
-                                            <div class="col-md-8"><input class="form-control" type="text"/></div>
-                                    </div>
-                                    <hr>
-                                        <div class="form-group"><label class="col-md-4 control-label" for="">Адрес
-                                            регистрации свидетельства:</label>
-
-                                            <div class="col-md-8"><input class="form-control" type="text"/></div>
-                                        </div>
-                                    <!--конец расчетного счета-->
-                                    <hr>
-                                        <div class="form-group"><label class="col-md-4 control-label">НДС: <input
-                                                type="checkbox"/></label>
-                                            <!--<div class="col-md-8 checkbox"><input type="checkbox"/></div>-->
-                                        </div>
-                                        <hr>
-                                </div>
-                                <div class="tab-pane" id="integrations">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A adipisci corporis
-                                        deserunt dicta
-                                        eaque id, maiores minima nobis numquam odit pariatur, perspiciatis porro
-                                        possimus voluptate
-                                        voluptatibus. Adipisci aut, consequatur doloremque dolorum ea est impedit
-                                        maiores minima
-                                        modi mollitia nobis numquam praesentium recusandae similique, sunt tempore
-                                        tenetur!
-                                        Consequuntur corporis deserunt dolor enim illo ipsum iusto laboriosam laborum
-                                        libero
-                                        nostrum, numquam perferendis praesentium quae quod ratione recusandae reiciendis
-                                        soluta
-                                        suscipit tempore totam ut vel velit voluptas! Cum deserunt dolore, error ratione
-                                        saepe
-                                        voluptatem. At omnis sapiente temporibus. Accusamus doloribus ea eaque eius eum
-                                        ex, impedit
-                                        labore molestiae praesentium quaerat quia, quisquam, tempore!</p>
-                                </div>
+                    <div class="tab-pane active" id="general">
+                        <div class="panel panel-primary">
+                            <div class="panel-heading">
+                                <h4>Общее</h4>
                             </div>
-                        </form>
+                            <div class="panel-body">
+                                <form class="form-horizontal" action="#details">
+                                    <div class="form-group">
+                                        <label class="col-md-4 control-label" for="">Платежная система:</label>
+
+                                        <div class="col-md-8">
+                                            <label class="checkbox"><input type="checkbox"/> QIWI</label>
+                                            <label class="checkbox"><input type="checkbox"/> Webmoney</label>
+                                            <label class="checkbox"><input type="checkbox"/> Расчетный счет</label>
+                                        </div>
+                                    </div>
+                                    <hr>
+                                    <div class="form-group"><label class="col-md-4 control-label">Форма
+                                        собственности:</label>
+
+                                        <div class="col-md-8">
+                                            <select name="" class="form-control" data-live-search=true>
+                                                <option>---</option>
+                                                <option>ЧП</option>
+                                                <option>ООО</option>
+                                                <option>ЗАО</option>
+                                            </select></div>
+                                    </div>
+                                    <hr>
+                                    <p class="padding-top-10">
+                                        <button class="btn btn-md btn-primary">Save</button>
+                                    </p>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tab-pane" id="details">
+
+                        <div class="panel panel-primary">
+                            <div class="panel-heading">
+                                <h4>Реквизиты</h4>
+                            </div>
+                            <div class="panel-body">
+                                <form class="form-horizontal" action="#integrations">
+
+                        <!--QIWI-->
+                        <div class="form-group"><label class="col-md-4 control-label" for="">Номер
+                            QIWI-кошелька
+                            (тел.):</label>
+
+                            <div class="col-md-8"><input class="form-control" type="text"/></div>
+                        </div>
+                        <hr>
+                        <!--конец QIWI-->
+
+                        <!--расчетный счет-->
+                        <div class="form-group"><label class="col-md-4 control-label"
+                                                       for="">Имя:</label>
+
+                            <div class="col-md-8"><input class="form-control" type="text"/></div>
+                        </div>
+                        <hr>
+                        <div class="form-group"><label class="col-md-4 control-label"
+                                                       for="">Фамилия:</label>
+
+                            <div class="col-md-8"><input class="form-control" type="text"/></div>
+                        </div>
+                        <hr>
+                        <div class="form-group"><label class="col-md-4 control-label"
+                                                       for="">Адрес:</label>
+
+                            <div class="col-md-8"><input class="form-control" type="text"/></div>
+                        </div>
+                        <hr>
+                        <div class="form-group"><label class="col-md-4 control-label"
+                                                       for="">СПЄП:</label>
+
+                            <div class="col-md-8"><input class="form-control" type="text"/></div>
+                        </div>
+                        <hr>
+                        <div class="form-group"><label class="col-md-4 control-label"
+                                                       for="">ЄДР:</label>
+
+                            <div class="col-md-8"><input class="form-control" type="text"/></div>
+                        </div>
+                        <hr>
+                        <div class="form-group"><label class="col-md-4 control-label" for="">ИН:</label>
+
+                            <div class="col-md-8"><input class="form-control" type="text"/></div>
+                        </div>
+                        <hr>
+                        <div class="form-group"><label class="col-md-4 control-label" for="">Адрес
+                            регистрации свидетельства:</label>
+
+                            <div class="col-md-8"><input class="form-control" type="text"/></div>
+                        </div>
+                        <!--конец расчетного счета-->
+                        <hr>
+                        <div class="form-group"><label class="col-md-4 control-label">НДС: <input
+                                type="checkbox"/></label>
+                            <!--<div class="col-md-8 checkbox"><input type="checkbox"/></div>-->
+                        </div>
+                        <hr>
+                                    <p class="padding-top-10">
+                                        <button class="btn btn-md btn-primary" >Save</button>
+                                    </p>
+                                    </form>
+                    </div>
+                    </div>
+                    </div>
+                    <div class="tab-pane" id="integrations">
+                        <div class="panel panel-primary">
+                            <div class="panel-heading">
+                                <h4>Интеграции</h4>
+                            </div>
+                            <div class="panel-body">
+                                <form class="form-horizontal" action="new-invoice.html">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A adipisci corporis
+                            deserunt dicta
+                            eaque id, maiores minima nobis numquam odit pariatur, perspiciatis porro
+                            possimus voluptate
+                            voluptatibus. Adipisci aut, consequatur doloremque dolorum ea est impedit
+                            maiores minima
+                            modi mollitia nobis numquam praesentium recusandae similique, sunt tempore
+                            tenetur!
+                            Consequuntur corporis deserunt dolor enim illo ipsum iusto laboriosam laborum
+                            libero
+                            nostrum, numquam perferendis praesentium quae quod ratione recusandae reiciendis
+                            soluta
+                            suscipit tempore totam ut vel velit voluptas! Cum deserunt dolore, error ratione
+                            saepe
+                            voluptatem. At omnis sapiente temporibus. Accusamus doloribus ea eaque eius eum
+                            ex, impedit
+                            labore molestiae praesentium quaerat quia, quisquam, tempore!</p>
+                                    <p class="padding-top-10">
+                                        <button class="btn btn-md btn-primary" >Save</button>
+                                    </p>
+                            </form>
+                            </div>
                     </div>
                 </div>
-                <div class="clearfix"></div>
-                <p class="<!--text-center-->">
-                    <button class="btn btn-md btn-primary" form="profile">Save</button>
-                </p>
             </div>
+            <div class="clearfix"></div>
+            <!--<p class="&lt;!&ndash;text-center&ndash;&gt;">-->
+                <!--<button class="btn btn-md btn-primary" form="profile">Save</button>-->
+            <!--</p>-->
         </div>
     </div>
+</div>
 
 
-    <footer>
-        <div class="container">
-            <p class="col-md-3 col-md-offset-5">Billsystem 2013</p>
-        </div>
-    </footer>
+<footer>
+    <div class="container">
+        <p class="col-md-3 col-md-offset-5">Billsystem 2013</p>
+    </div>
+</footer>
 </div>
 
 
