@@ -104,6 +104,9 @@ form p button {
     font-size: small;
 }
 
+label[for="amount"]+input {
+    color:  #285e8e !important;
+}
 
 
 
