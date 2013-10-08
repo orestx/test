@@ -106,6 +106,7 @@ form p button {
 
 label[for="amount"]+input {
     color:  #285e8e !important;
+    background-color: white;
 }
 
 
