@@ -10,5 +10,9 @@ var clients = {
     "spep": "49605346",
     "inn": "439056839478397",
     "vad": false
+};
+var jsonString = JSON.stringify( clients );
+function test_json () {
+var res = JSON.parse(jsonString)
+alert (res.fname);
 }
-
