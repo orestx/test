@@ -11,6 +11,21 @@ var clients = {
     "inn": "439056839478397",
     "vad": false
 };
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 var jsonString = JSON.stringify( clients );
 function test_json () {
 var res = JSON.parse(jsonString)
