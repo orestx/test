@@ -144,10 +144,10 @@
                         </div>
                         <hr>
 
-                        <p class="text-right col-md-offset-5 col-md-7">
-                            <button class="btn btn-md btn-default">Preview</button>
+                        <div class="button-group text-right col-md-offset-5 col-md-7">
+                            <a class="btn btn-sm btn-default fancybox fancybox.iframe" href="invoice-template.html">Preview</a>
                             <button class="btn btn-md btn-primary">Save</button>
-                        </p>
+                        </div>
                     </form>
                 </div>
 
@@ -165,6 +165,16 @@
 </footer>
 </div>
 
+<link rel="stylesheet" href="../css/jquery.fancybox.css" type="text/css" media="screen" />
+<script type="text/javascript" src="../js/jquery.fancybox.pack.js"></script>
+
+
+
+<script>
+    $(document).ready(function() {
+        $('.fancybox').fancybox();
+    });
+</script>
 
 </body>
 
